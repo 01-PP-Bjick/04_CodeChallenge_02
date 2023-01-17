@@ -17,7 +17,7 @@ Alter 13-17 // Cola
 /* Getränke-Challenge */
 
 var user = prompt("Please enter your user:");
-var age = prompt("Please enter your Age:");
+var age = Number(prompt("Please enter your Age:"));
 
 // age = ">= 0 && <=5";
 // age = ">= 6 && age <= 12";
