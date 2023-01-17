@@ -52,7 +52,11 @@ else if (age >= 6 && age <= 12)
 {
     console.log(name + ", you should have some juice.");
 }
-else (age >= 13 && age <= 17)
+else if (age >= 13 && age <= 17)
+{
+    console.log(name + ", you should have some cola.");
+}
+else (age >= 18)
 {
     console.log(name + ", you should have some wine.");
 }
