@@ -24,22 +24,35 @@ var age = prompt("Please enter your Age:");
 // age = ">= 13 && age <= 17";
 // age = ">= 18";
 
-switch (true) 
+// switch (true) 
+// {
+//     case (age >= 0 && age <= 5):
+//         console.log(name + ", you should have some milk.");
+//         break;
+//     case (age >= 6 && age <= 12):
+//         console.log(name + ", you should have some juice.");
+//         break;
+//     case (age >= 13 && age <= 17):
+//         console.log(name + ", you should have some cola.");
+//         break;
+//     case (age >= 18):
+//         console.log(name + ", you should have some wine.");
+//         break;
+
+//     default:
+//         console.log("Invalid age input.");
+//         break;
+// }
+
+if (age >= 0 && age <= 5)
 {
-    case (age >= 0 && age <= 5):
-        console.log(name + ", you should have some milk.");
-        break;
-    case (age >= 6 && age <= 12):
-        console.log(name + ", you should have some juice.");
-        break;
-    case (age >= 13 && age <= 17):
-        console.log(name + ", you should have some cola.");
-        break;
-    case (age >= 18):
-        console.log(name + ", you should have some wine.");
-        break;
-        
-    default:
-        console.log("Invalid age input.");
-        break;
+    console.log(name + ", you should have some milk.");
+}
+else if (age >= 6 && age <= 12)
+{
+    console.log(name + ", you should have some juice.");
+}
+else (age >= 13 && age <= 17)
+{
+    console.log(name + ", you should have some wine.");
 }
