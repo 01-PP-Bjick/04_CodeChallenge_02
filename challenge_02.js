@@ -38,6 +38,7 @@ switch (true)
     case (age >= 18):
         console.log(name + ", you should have some wine.");
         break;
+        
     default:
         console.log("Invalid age input.");
         break;
